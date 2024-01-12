@@ -128,11 +128,49 @@ main {
     line-height: 26px;
 }
 
+/* features section styles */
+.features {
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    color: #131313;
+}
+
+.features-content .card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+
+
+}
+
+
+
 /* facts section */
-.facts-card-container{
+.facts-card-container {
     display: flex;
     justify-content: space-around;
 }
+
 .facts-card-container .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
@@ -140,24 +178,27 @@ main {
     padding: 30px 30px;
 
 }
-.facts-card-container .card-title{
+
+.facts-card-container .card-title {
     font-size: 600;
     font-size: 1.25rem;
     margin-top: 5px;
 
 }
-.facts-card-container .card-stats{
+
+.facts-card-container .card-stats {
     font-size: 2.8rem;
     color: #424242;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /* sponspors starts */
-.sponspors{
+.sponspors {
     text-align: center;
 }
 
-.sponspors-img-container{
+.sponspors-img-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -165,7 +206,8 @@ main {
     gap: 40px;
 
 }
-.sponspors-img-container img{
+
+.sponspors-img-container img {
     width: 165px;
 }
 
@@ -178,7 +220,8 @@ main {
     }
 
     nav,
-    .teams-container, .sponspors-img-container {
+    .teams-container,
+    .sponspors-img-container {
         flex-direction: column;
     }
 
@@ -187,14 +230,16 @@ main {
 
     }
 
-    .teams-content,.facts-card-container {
+    .teams-content,
+    .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         gap: 20px;
     }
-    
+
 
 }
 
@@ -206,7 +251,7 @@ main {
     }
 
     nav,
-    .teams-container, 
+    .teams-container,
     .sponspors-img-container {
         flex-direction: column;
     }
